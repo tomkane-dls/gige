@@ -1,0 +1,26 @@
+# GigE camera config
+# ---------------------------------------------------------
+ 
+# PV prefix
+base_pv: "BL33P-DI-GIGE-01"
+ 
+# Output settings
+folder_path: "/dls/p33/data/2025/cm40659-2/tmp/gige_tiff_test"
+file_no: 1
+file_template: "%s%s%06d.tiff"
+ 
+# Acquisition
+acquire_time: 0.5           # Exposure time in seconds
+num_images: 1               # Number of frames to capture
+image_mode: 1               # 0 = Single, 1 = Multiple, 2 = Continuous
+data_type: 12               # Bits-per-pixel
+ 
+# Sensor ROI
+width: 1936
+height: 1216
+x_start: 1
+y_start: 1
+ 
+# Polling
+poll_interval: 0.1          # Seconds between status checks during acquisition
+connection_timeout: 5.0     # Seconds to wait when checking PV connectivity
