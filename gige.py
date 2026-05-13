@@ -4,8 +4,8 @@ author: Thomas Kane
 GigE camera acquisition script.
 
 Usage:
-    uv run gige config.yaml
-    uv run gige --help
+    uv run gige.py config.yaml
+    uv run gige.py --help
 """
 import argparse
 import logging
