@@ -44,7 +44,7 @@ Once the package is installed (`pip install -e .`), import the camera class dire
 from gige import Gige1Camera
 
 camera = Gige1Camera(
-    base_pv="BL33P-DI-GIGE-01",
+    base_pv="BLXXX-DI-GIGE-01",
     folder_path="/path/to/output",
     file_no=1,
     acquire_time=0.5,

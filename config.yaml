@@ -2,10 +2,10 @@
 # ---------------------------------------------------------
  
 # PV prefix
-base_pv: "BL33P-DI-GIGE-01"
- 
+base_pv: "BLXXX-DI-GIGE-01"
+
 # Output settings
-folder_path: "/dls/p33/data/2025/cm40659-2/tmp/gige_tiff_test"
+folder_path: "/path/to/output/directory"
 file_no: 1
 file_template: "%s%s%06d.tiff"
  
